@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Home"
+            android:title="@string/Home"
+            android:icon="@drawable/home"
+            />
+        <item
+            android:id="@+id/Overview"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/Overview" />
+        <item
+            android:id="@+id/Portfolio"
+
+            android:title="@string/Portfolio"
+            android:icon="@drawable/portfolio" />
+        <item
+            android:id="@+id/Team"
+            android:icon="@drawable/team"
+            android:title="@string/Team" />
+
+        <item
+            android:id="@+id/Clients"
+            android:icon="@drawable/clients"
+            android:title="@string/Clients" />
+        <item
+            android:id="@+id/Testimonial"
+            android:title="@string/Testimonial"
+            android:icon="@drawable/testimonial" />
+        <item
+            android:id="@+id/Methodology"
+            android:title="@string/Methodology"
+            android:icon="@drawable/methodology" />
+        <item
+            android:id="@+id/Social"
+            android:title="@string/Social"
+            android:icon="@drawable/social" />
+        <item
+            android:id="@+id/FAQ"
+            android:title="@string/FAQ"
+            android:icon="@drawable/faq" />
+        <item
+            android:id="@+id/Rating"
+            android:title="@string/Rating"
+            android:icon="@drawable/rate" />
+
+    </group>
+
+</menu>
